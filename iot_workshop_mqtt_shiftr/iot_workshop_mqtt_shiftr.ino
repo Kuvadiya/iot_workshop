@@ -10,8 +10,8 @@
 #include <ESP8266WiFi.h>
 #include <MQTT.h>
 
-const char ssid[] = "ISRO";
-const char pass[] = "bk#bk9898";
+const char ssid[] = "your ssid";
+const char pass[] = "your password";
 
 WiFiClient net;
 MQTTClient client;
@@ -26,7 +26,7 @@ void connect() {
   }
 
   Serial.print("\nconnecting...");
-  while (!client.connect("iot-bk", "47624919", "e7984b3c9a1b667b")) {
+  while (!client.connect("arduino", "try", "try")) {
     Serial.print(".");
     delay(1000);
   }
