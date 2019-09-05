@@ -4,8 +4,8 @@
 
 #include "index.h"
 #define LED 2
-const char* ssid = "ISRO";
-const char* password = "bk#bk9898";
+const char* ssid = "your ssid ";
+const char* password = "your password ";
 
 ESP8266WebServer server(80);
 
