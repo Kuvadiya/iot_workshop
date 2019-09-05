@@ -4,8 +4,8 @@
 #include<WiFiClient.h>
 
 #include "index.h"
-const char* ssid = "ISRO";
-const char* password = "bk#bk9898";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 
 
